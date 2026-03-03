@@ -1,0 +1,28 @@
+{
+  "name": "ctrlshift-plus",
+  "version": "0.1.0",
+  "description": "Slack-native personal workflow assistant",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "auth:graph": "tsx src/scripts/auth-graph.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@slack/bolt": "^3.22.0",
+    "@slack/web-api": "^7.8.0",
+    "better-sqlite3": "^11.9.0",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.10",
+    "@types/uuid": "^10.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

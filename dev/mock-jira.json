@@ -1,0 +1,53 @@
+{
+  "issues": [
+    {
+      "key": "DVLS-1234",
+      "summary": "Fix regression in OAuth token refresh flow",
+      "priority": "High",
+      "status": "Test Failed",
+      "labels": ["regression", "auth"]
+    },
+    {
+      "key": "DVLS-1205",
+      "summary": "Regression: Login flow broken with SSO providers after 2.8 upgrade",
+      "priority": "Critical",
+      "status": "QA In Progress",
+      "labels": ["regression", "sso", "critical"]
+    },
+    {
+      "key": "DVLS-1201",
+      "summary": "Update Docker base image to Ubuntu 22.04 LTS",
+      "priority": "Medium",
+      "status": "Ready to Test",
+      "labels": ["infra"]
+    },
+    {
+      "key": "DVLS-1189",
+      "summary": "Add MFA backup codes to user settings page",
+      "priority": "Medium",
+      "status": "QA Passed",
+      "labels": ["security", "mfa"]
+    },
+    {
+      "key": "DVLS-0982",
+      "summary": "Implement new onboarding wizard for first-time users",
+      "priority": "Medium",
+      "status": "In Progress",
+      "labels": ["ux", "onboarding"]
+    },
+    {
+      "key": "DVLS-1100",
+      "summary": "Add retry logic and dead-letter queue to webhook handler",
+      "priority": "Low",
+      "status": "In Progress",
+      "labels": ["reliability"]
+    },
+    {
+      "key": "DVLS-1102",
+      "summary": "Investigate session timeout issues on mobile Safari",
+      "priority": "High",
+      "status": "In Analysis",
+      "labels": ["mobile", "session"]
+    }
+  ]
+}

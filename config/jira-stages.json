@@ -1,0 +1,56 @@
+{
+  "Analysis": [
+    "To Do",
+    "Backlog",
+    "Open",
+    "New",
+    "In Analysis",
+    "Requirement Gathering",
+    "Grooming",
+    "Refinement",
+    "Selected for Development"
+  ],
+  "Development": [
+    "In Progress",
+    "In Development",
+    "Coding",
+    "Implementation",
+    "In Review",
+    "Code Review",
+    "PR Open",
+    "Under Review"
+  ],
+  "Test": {
+    "ReadyToTest": [
+      "Ready for QA",
+      "Ready to Test",
+      "QA Queue",
+      "Awaiting QA",
+      "Ready for Testing"
+    ],
+    "InTest": [
+      "In QA",
+      "Testing",
+      "Test In Progress",
+      "QA In Progress",
+      "Under Testing"
+    ],
+    "TestFailed": [
+      "QA Failed",
+      "Test Failed",
+      "Failed",
+      "Reopen",
+      "Reopened",
+      "Returned",
+      "Rejected"
+    ],
+    "TestPassed": [
+      "QA Passed",
+      "Test Passed",
+      "Verified",
+      "Done (Pending Release)",
+      "Approved",
+      "Accepted"
+    ]
+  }
+}

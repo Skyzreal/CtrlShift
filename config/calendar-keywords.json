@@ -1,0 +1,6 @@
+{
+  "wfh": ["WFH", "Work from Home", "Working from Home", "Remote", "Remote Work", "WFH Day"],
+  "office": ["Office", "In Office", "On Site", "Onsite", "In-Office", "Going to the Office"],
+  "ooo": ["OOO", "Out of Office", "Out of office", "PTO", "Holiday", "Leave", "Sick", "Sick Day"],
+  "vacation": ["Vacation", "Annual Leave", "Time Off", "Day Off", "Personal Day"]
+}
